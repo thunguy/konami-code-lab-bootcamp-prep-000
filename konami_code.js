@@ -20,9 +20,9 @@ function init() {
     if (key === codes[index]) {
       index++;
       
-    if (idx === codes.length) {
+    if (index === codes.length) {
       alert("Hurray!");
-      idx = 0;
+      index = 0;
     }
     else {
       idx = 0;
