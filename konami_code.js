@@ -14,7 +14,7 @@ const codes = [
 function init() {
   let i = 0
   
-  document.body.addEventListener('keydown', (event) => {
+  document.body.addEventListener('keydown', (e) => {
     const key = e.key;
   
     if (key === code[i]) {
