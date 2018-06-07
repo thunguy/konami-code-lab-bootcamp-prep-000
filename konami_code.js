@@ -25,7 +25,7 @@ function init() {
       index = 0;
     }
     else {
-      idx = 0;
+      index = 0;
     }
    }
  })
